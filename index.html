@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>sign-in-form</title>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <a class="form-wrapper__link form-wrapper__link_active" href="#">
+            Sign in
+        </a>
+        <a class="form-wrapper__link" href="#">
+            Join us
+        </a>
+        <form class="form" action="#">
+            <label class="form__input-title" for="name">Username</label>
+            <input class="form__item" id="name" name="username" type="text">
+            <label class="form__input-title" for="pass">Password</label>
+            <input class="form__item" id="pass" name="password" type="text">
+            <label class="form__checkbox-wrapper">
+                <input class="form__checkbox" type="checkbox" id="question" name="question">
+                <i class="form__checkbox-style"></i>
+                Keep me signed in
+            </label>
+            <button class="form__button" type="submit">Sign in</button>
+        </form>
+        <a class="form-wrapper__link form-wrapper__link_lower" href="#">Forgot password</a>
+        <a class="form-wrapper__link form-wrapper__link_lower" href="#">Create an account</a>
+    </div>
+</body>
+
+</html>
